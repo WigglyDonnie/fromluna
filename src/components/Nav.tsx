@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Brand from './Brand';
 
 function Nav() {
   return (
-    <div className="nav">
-      navnavnav
+    <div className="Nav">
+      <Brand />
     </div>
   );
 }

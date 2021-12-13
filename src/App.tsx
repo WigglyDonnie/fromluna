@@ -5,8 +5,7 @@ import Nav from './components/Nav';
 function App() {
   return (
     <div className="homepage">
-      <Nav></Nav>
-      From LUNA
+      <Nav />
     </div>
   );
 }
