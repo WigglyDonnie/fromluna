@@ -12,7 +12,8 @@ library.add(fas)
 function Brand() {
   return (
     <div className="Brand">
-      <FontAwesomeIcon icon={faMoon} />
+      <FontAwesomeIcon className="MoonIcon" icon={faMoon} />
+      <div className="title">From LUNA</div>
     </div>
   );
 }
