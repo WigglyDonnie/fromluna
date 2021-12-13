@@ -1,12 +1,15 @@
-import React from "react";
-
+import React, { useState } from "react";
 
 function LoginMenu() {
+  const [authed, setAuthed] = useState(false);
+  const [name, setName] = useState("");
+
   return (
     <div className="LoginMenu">
-      <button> Login </button>
-      <button> Logout </button>
-      <div>IM A NAME</div>
+      <button onClick={() => setAuthed(true)}> Login </button>
+      <button onClick={() => setAuthed(false)}> Logout </button>
+
+      <div>{authed ? <div>IM A NAME</div> : <div>IM NOT A NAME</div>}</div>
     </div>
   );
 }
