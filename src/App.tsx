@@ -1,10 +1,12 @@
 import React from 'react';
+import Nav from './components/Nav';
 
 
 function App() {
   return (
-    <div className="App">
-      bing bong
+    <div className="homepage">
+      <Nav></Nav>
+      From LUNA
     </div>
   );
 }
