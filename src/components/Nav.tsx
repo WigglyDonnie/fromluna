@@ -6,11 +6,13 @@ function Nav() {
 
   const [formValue, setFormValue] = useState("");
 
+
+
   return (
     <div className="Nav">
       <Brand />
-      <LoginMenu />
-      <input onChange={(event) => {console.log(event.target.value)}} type="text" name="name" autoComplete="off"/>
+      <LoginMenu value={formValue}/>
+      <input onChange={(event) => {setFormValue(event.target.value)}} type="text" name="name" autoComplete="off"/>
     </div>
   );
 }
