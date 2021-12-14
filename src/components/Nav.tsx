@@ -4,7 +4,7 @@ import LoginMenu from './LoginMenu'
 
 function Nav() {
 
-  const [formValue, setFormValue] = useState("");
+  const [formValue, setFormValue] = useState("type something");
 
 
 
