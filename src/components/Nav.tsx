@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Brand from './Brand';
 import LoginMenu from './LoginMenu'
+import './Nav.scss';
 
 function Nav() {
 

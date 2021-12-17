@@ -4,6 +4,8 @@ import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 
+import './Brand.scss';
+
 library.add(fas)
 
 // ...

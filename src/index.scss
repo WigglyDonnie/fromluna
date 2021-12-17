@@ -1,39 +1,13 @@
-.Nav {
-  display: flex;
-  color: brown;
-  background-color: tan;
-
-  width: 100vw;
-  height: 50px;
-}
 
 .homepage {
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-family: "Sans-Serif";
 
   width: 100vw;
   height: 100vh;
   background-color: tomato;
 
   background-image: url("./images/background.gif");
-}
-
-.Brand {
-  display: flex;
-}
-
-.MoonIcon{
-  color: purple;
-}
-
-.title {
-  color:yellow
-}
-
-
-
-.Catpicture{
-  width: 50%;
-  
 }
