@@ -1,21 +1,32 @@
-import React, {useState} from 'react';
-import Brand from './Brand';
-import LoginMenu from './LoginMenu'
-import './Nav.scss';
+import * as React from 'react';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
 
-function Nav() {
-
-  const [formValue, setFormValue] = useState("type something");
-
-
-
+export default function Nav() {
   return (
-    <div className="Nav">
-      <Brand />
-      <LoginMenu value={formValue}/>
-      <input onChange={(event) => {setFormValue(event.target.value)}} type="text" name="name" autoComplete="off"/>
-    </div>
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 2 }}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            News
+          </Typography>
+          <Button color="inherit">Login</Button>
+        </Toolbar>
+      </AppBar>
+    </Box>
   );
 }
-
-export default Nav;
