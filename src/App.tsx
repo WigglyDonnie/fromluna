@@ -7,8 +7,8 @@ import Head from './components/Head';
 function App() {
   return (
     <div className="homepage">
-      <Nav />
       <Head />
+      <Nav />
       
     </div>
   );
