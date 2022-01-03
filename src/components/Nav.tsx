@@ -6,11 +6,12 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import './Nav.scss'
 
 export default function Nav() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+    <Box className='Nav' sx={{ flexGrow: 1 }}>
+      <AppBar>
         <Toolbar>
           <IconButton
             size="large"
