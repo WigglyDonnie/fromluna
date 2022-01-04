@@ -8,8 +8,7 @@ export default function Head() {
   
   <div className='Head'>
     <HeadLogo></HeadLogo>
-    <HeadLogo></HeadLogo>
-    <HeadLogo></HeadLogo>
+    
   </div>
 
   );
