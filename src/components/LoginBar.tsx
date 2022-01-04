@@ -1,13 +1,16 @@
 import * as React from "react";
 
-import "./LoginBar.scss";
+import LoginButton from "./LoginButton";
+import QnaButton from "./QnaButton";
 
+import "./LoginBar.scss"; 
 
 export default function LoginBar() {
   return (
   
   <div className='LoginBar'>
-   LOGINBAR
+   <LoginButton />
+   <QnaButton />
     
   </div>
 
