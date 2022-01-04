@@ -1,6 +1,6 @@
 .navBar{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   background-color: #f2f6fc;
   color: #3108ff;
@@ -15,4 +15,5 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 10px;
+
 }
