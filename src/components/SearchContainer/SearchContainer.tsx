@@ -1,13 +1,18 @@
 import * as React from "react";
 
 import './SearchContainer.scss'
+import SearchBox from "./SearchBox";
 
 
 export default function SearchContainer() {
   return (
   
   <div className='SearchContainer'>
-    HEY GUYS IM THE SEARCH CONTAINER
+    <SearchBox/>
+    <SearchBox/>
+    <SearchBox/>
+    <SearchBox/>
+    
     
   </div>
 
