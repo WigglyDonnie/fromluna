@@ -1,12 +1,15 @@
 import * as React from "react";
 
 import "./Head.scss";
+import HeadLogo from "./HeadLogo";
 
 export default function Head() {
   return (
   
   <div className='Head'>
-    bing bong
+    <HeadLogo></HeadLogo>
+    <HeadLogo></HeadLogo>
+    <HeadLogo></HeadLogo>
   </div>
 
   );
