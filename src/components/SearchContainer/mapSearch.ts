@@ -1,12 +1,10 @@
-export const mapSearch = (query:number) => {
-  let sortable: string[] = [];
+export const mapSearch = (query:string[]) => {
+  let searchQuery: string[] = query;
+  let counter = 0;
 
-  for (let i = 0; i < sortable.length; i++) {
-    console.log(typeof i, sortable[i]);
+  for (let i = 0; i < searchQuery.length; i++) {
+    counter ++;
   }
   
-
-  return sortable.sort(function (a, b) {
-    return a[1] - b[1];
-  });
+  return counter;
 };
