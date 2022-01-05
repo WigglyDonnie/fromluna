@@ -1,9 +1,10 @@
-export const sortObject = (obj) => {
-  var sortable = [];
+export const mapSearch = (query:number) => {
+  let sortable: string[] = [];
 
-  for (var item in obj) {
-    sortable.push([item, obj[item]]);
+  for (let i = 0; i < sortable.length; i++) {
+    console.log(typeof i, sortable[i]);
   }
+  
 
   return sortable.sort(function (a, b) {
     return a[1] - b[1];
